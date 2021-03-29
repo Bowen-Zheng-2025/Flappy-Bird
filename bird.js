@@ -44,19 +44,19 @@ var imgStart = new Image(); //basically creates the image
 imgStart.onload = function(){ //uploads the image onto the screen
   drawStart(); //uses a function from below
 }
-imgStart.src="/start.png"; //source for where the image is coming from
+imgStart.src="start.png"; //source for where the image is coming from
 
 var imgEnd = new Image(); //basically creates the image
 imgEnd.onload = function(){ //uploads the image onto the screen
   drawEnd(); //uses a function from below
 }
-imgEnd.src="Flappy-Bird/gameover.png"; //source for where the image is coming from
+imgEnd.src="gameover.png"; //source for where the image is coming from
 
 var tube = new Image(); //basically creates the image
 tube.onload = function(){ //uploads the image onto the screen
   makePipe(); //uses a function from below
 }
-tube.src="/Flappy-Bird/tube.png"; //source for where the image is coming from
+tube.src="tube.png"; //source for where the image is coming from
 
 // drawStart() - draws the start screen of the game
 function drawStart() {
