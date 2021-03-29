@@ -26,37 +26,37 @@ var img = new Image(); //basically creates the image
 img.onload = function(){ //uploads the image onto the screen
   drawBirb(); //uses a function from below
 }
-img.src="birb.png"; //source for where the image is coming from
+img.src="/birb.png"; //source for where the image is coming from
 
 var imgUp = new Image(); //basically creates the image
 imgUp.onload = function(){ //uploads the image onto the screen
   drawBirb(); //uses a function from below
 }
-imgUp.src="birbUp.png"; //source for where the image is coming from
+imgUp.src="/birbUp.png"; //source for where the image is coming from
 
 var imgDown = new Image(); //basically creates the image
 imgDown.onload = function(){ //uploads the image onto the screen
   drawBirb(); //uses a function from below
 }
-imgDown.src="birbDown.png"; //source for where the image is coming from
+imgDown.src="/birbDown.png"; //source for where the image is coming from
 
 var imgStart = new Image(); //basically creates the image
 imgStart.onload = function(){ //uploads the image onto the screen
   drawStart(); //uses a function from below
 }
-imgStart.src="start.png"; //source for where the image is coming from
+imgStart.src="/start.png"; //source for where the image is coming from
 
 var imgEnd = new Image(); //basically creates the image
 imgEnd.onload = function(){ //uploads the image onto the screen
   drawEnd(); //uses a function from below
 }
-imgEnd.src="gameover.png"; //source for where the image is coming from
+imgEnd.src="/gameover.png"; //source for where the image is coming from
 
 var tube = new Image(); //basically creates the image
 tube.onload = function(){ //uploads the image onto the screen
   makePipe(); //uses a function from below
 }
-tube.src="tube.png"; //source for where the image is coming from
+tube.src="/tube.png"; //source for where the image is coming from
 
 // drawStart() - draws the start screen of the game
 function drawStart() {
