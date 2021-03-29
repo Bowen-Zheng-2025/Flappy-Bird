@@ -18,11 +18,11 @@
   font-size: 40px;
   font-family: monospace;
   color: white;
-  transform: translate(590px, 100px);
+  transform: translateY(110px);
 }
 
 body {
-  background-image: url(background.png);
+  background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
