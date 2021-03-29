@@ -1,0 +1,28 @@
+@keyframes moveBackground {
+  from {background-position: 1000px 0px;}
+  to {background-position: 0px 0px;}
+  /* makes the image move from right to left */
+}
+
+#myCanvas {
+  border-style: dashed;
+  border-color: grey;
+  background-image: url("flappy_bird_background.png");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: moveBackground 25s linear infinite;
+  /* makes the image move in a direction forever in a straight path/line */
+}
+
+#score {
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+  transform: translate(590px, 100px);
+}
+
+body {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
